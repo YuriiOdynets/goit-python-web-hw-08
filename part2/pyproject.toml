@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "part2"
+version = "0.1.0"
+description = ""
+package-mode = false
+authors = ["YuriiOdynets <yuriiodynets@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pymongo = "^4.8.0"
+mongoengine = "^0.28.2"
+faker = "^26.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
